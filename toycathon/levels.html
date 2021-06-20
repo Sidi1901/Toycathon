@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+  <title>AOI-The Ages of India</title>
+
+<style>
+.bdy{
+  border: 2px solid black;
+  padding: 25px;
+  background-image: url('assets/lev.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 600px;
+  position: relative;
+  background-size: cover;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+ul {
+//  background-color: gray;
+  border: none;
+  
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+text-color:whitel
+  opacity: 0.6;
+  transition: 0.3s;
+  width:300px;
+
+}
+
+li{
+ color: white;
+font-weight: bold;
+ gap: 100px;
+}
+li:hover {background-color: black; /* Green */
+  color: white;
+}
+
+.glow {
+//  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+</style>
+
+  </head>
+  <body class="bdy">
+
+<div class="container">
+  <div class="vertical-center">   
+<h1 class="glow">LEVELS</h1>
+        <nav>
+            <ul class="glow">
+            
+                <li style="color:blue">3300-1900 BCE &#10004;</li>
+                <li style="color:blue">2600-1900 BCE</li>
+                <li style="color:blue">2000-1500 BCE &#10004; </li>
+                <li style="color:blue">600-200 BCE &#10004;</li>
+                <li style="color:blue">1200-600 BCE &#10004;</li>
+                <li style="color:blue">600-413 BCE &#10004;</li> 
+                <li style="color:blue">600-300 BCE &#10004;</li>
+                <li style="color:blue">345-322 BCE &#10004;</li>
+                <li><a href="puzzle.html">322 BCE-297 BCE</a></li>
+                <li>272-232 BCE </li>
+                <li>200 BCE-320 CE</li>
+                <li>320-650 CE</li>
+                <li>655-900 CE</li>
+                <li>900-1100 CE</li>
+                <li>1120-1185 CE</li>
+                <li>......</li>
+
+            </ul>
+        </nav>
+        
+</div>
+</div>
+
+ 
+
+
+<script type="text/javascript">
+    document.getElementById("myBtn1").onclick = function () {
+        location.href = "cave.html";
+    };
+  document.getElementById("myButton2").onclick = function () {
+        location.href = "cave.html";
+    };
+</script>
+
+  
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+  <title>AOI-The Ages of India</title>
+
+<style>
+.bdy{
+  border: 2px solid black;
+  padding: 25px;
+  background-image: url('assets/mainp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  height: 600px;
+  position: relative;
+  background-size: cover;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.btn {
+  //background-color: #f4511e;
+  border: none;
+  
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  width:300px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ border: 2px solid #4CAF50; 
+}
+
+.btn:hover {opacity: 1}
+
+</style>
+
+  </head>
+  <body class="bdy">
+
+<div class="container">
+  <div class="vertical-center">   
+<button class="btn" id="myBtn1" class="float-left submit-button" >PLAY</button>
+
+<br>
+<br>
+ 
+<button class="btn" id="myBtn2" class="float-left submit-button" >MULTIPLAYER</button>
+<br>
+<br> 
+<button class="btn" id="myBtn3" class="float-left submit-button" >SETTINGS</button>
+<br>
+<br>
+<button class="btn" id="myBtn4" class="float-left submit-button" >EXIT</button>
+</div>
+</div>
+
+ 
+
+
+<script type="text/javascript">
+    document.getElementById("myBtn1").onclick = function () {
+        location.href = "levels.html";
+    };
+  document.getElementById("myButton2").onclick = function () {
+        location.href = "cave.html";
+    };
+</script>
+
+  
+
+
+</div>
+  </body>
+</html>
