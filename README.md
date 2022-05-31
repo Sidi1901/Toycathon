@@ -6,6 +6,5 @@ An idea for digital game based on Indian culture and values.
 
 For video, check out the link below
 
-https://drive.google.com/file/d/1jouqfvltQ4l8nOpGMDToNl_yuK9wNqFf/view?usp=sharing
-
+https://drive.google.com/file/d/13YQC23mDoFLW-9mdWQ4HSYsnf2A4ysjC/view?usp=sharing
 
